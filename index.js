@@ -49,13 +49,16 @@ const hobbyString = `My hobby is ${hobby}`;
 
 let stars = 0;
 
-// function incrementBy1(1)`Increment stars by (1)`;
-  // decrement stars by 1 👇🏻
-
-
-function incrementBy2() {
-  // Increment stars by 2 👇🏻
+function incrementBy1() 
+{stars++
+  // Increment stars by 1 👇🏻
 }
-function decrementBy2() {
+function incrementBy2() {stars = stars + 2}
+  // Increment stars by 2 👇🏻
+
+function decrementBy2() {stars = stars - 2
+  // decrement stars by 2 👇🏻
+}
+function decrementBy1() {stars = stars - 1
   // decrement stars by 2 👇🏻
 }
